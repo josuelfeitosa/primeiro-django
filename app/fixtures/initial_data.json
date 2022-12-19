@@ -1,0 +1,92 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$atdo3DgrQdUBPuuDC46wlm$VEEP5roQbUbWaJrL9o2y0Qf/kL1NN/Q/4HoYWh/7oAE=",
+            "last_login": "2022-12-19T19:08:14Z",
+            "is_superuser": true,
+            "username": "admin@user.com",
+            "first_name": "Admin",
+            "last_name": "Admin",
+            "email": "admin@user.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-12-19T19:04:13Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 1,
+        "fields": {
+            "name": "Messi",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 2,
+        "fields": {
+            "name": "Neymar",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 3,
+        "fields": {
+            "name": "Vinicius Jr.",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 4,
+        "fields": {
+            "name": "De brunye",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 5,
+        "fields": {
+            "name": "Cristiano Ronaldo",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 1,
+        "fields": {
+            "name": "Brasil"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 2,
+        "fields": {
+            "name": "Argentina"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 3,
+        "fields": {
+            "name": "Alemanha"
+        }
+    },
+    {
+        "model": "app.match",
+        "pk": 1,
+        "fields": {
+            "match_date": "2022-12-19T19:33:44Z",
+            "team_a": 1,
+            "team_a_goal": 0,
+            "team_b": 2,
+            "team_b_goal": 0
+        }
+    }
+]
